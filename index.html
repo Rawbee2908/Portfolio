@@ -5,7 +5,10 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav>
+    <nav class="flex flex-col md:justify-center
+    shadow-md max-[600px]:text-3xl
+    mx-auto w-3/4 p-4 mb-10 bg-orange-200
+    font-bold font-mono text-lg text-center">
         <div>
             <a>About Me</a>
             <a>Portfolio</a>
@@ -13,16 +16,22 @@
         </div>
     </nav>
 
-    <main>
-        <h1>Robbie Hollis</h1>
-        <div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ex eos, minus voluptas amet cumque quos voluptates neque eligendi a dolor harum fugiat nemo iure rerum delectus nostrum facere distinctio!</p>
-            <img src="robbie_2.png" alt="Portrait Image of Robbie"
-            width="150px"
-            height="150px"/>
-            <img src="robbie_1.png" alt="Portrait Image of Robbie"
-            width="150px"
-            height="150px"/>
+    <main class="shadow-md items-center
+    md:flex-cols bg-orange-200
+    font-bold font-mono p-4
+    mx-auto w-3/4">
+        <h1 class="text-2xl md:justify-center text-center p-4">Robbie Hollis</h1>
+        <div class="grid grid-cols-3 md:grid-cols-[2fr_2fr_1fr] p-4">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laborum ex eos, minus voluptas amet cumque quos voluptates neque eligendi a dolor harum fugiat nemo iure rerum delectus
+                nostrum facere distinctio!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laborum ex eos, minus voluptas amet cumque quos voluptates neque eligendi a dolor harum fugiat nemo iure rerum delectus
+                nostrum facere distinctio!</p>
+            <img class="p-1" src="robbie_2.png" alt="Portrait Image of Robbie"
+            width="200px"
+            height="200px"/>
+    
         </div>
     </main>
 </body>
