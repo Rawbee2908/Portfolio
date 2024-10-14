@@ -3,11 +3,14 @@
 <head>
 
 <script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <nav class="flex flex-col md:justify-center
     shadow-md max-[600px]:text-3xl
-    mx-auto w-3/4 p-4 mb-10 bg-orange-200
+    mx-auto w-3/4 p-4 mb-20 bg-orange-200
     font-bold font-mono text-lg text-center">
         <div>
             <a class="hover:bg-white p-2" href="#RH">About Me</a>
@@ -19,12 +22,13 @@
     <main class="shadow-md items-center
     md:flex-cols bg-orange-200
     font-mono font-bold p-4
-    mx-auto w-3/4 mb-10">
+    mx-auto w-3/4 mb-20">
         <h1 class="text-2xl md:justify-center text-center p-4" id="RH">Robbie Hollis</h1>
         <div class="grid grid-cols-3 md:grid-cols-[2fr_2fr_1fr] p-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Laborum ex eos, minus voluptas amet cumque quos voluptates neque eligendi a dolor harum fugiat nemo iure rerum delectus
-                nostrum facere distinctio!</p>
+            <p>Welcome to my profile! My name is Robbie and I am currently a student at iO Academy studying Software Development!
+                I am a developer born and raised in Bristol. Currently, I have no work expereince in software development, however
+                I am very excited to learn!
+            </p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Laborum ex eos, minus voluptas amet cumque quos voluptates neque eligendi a dolor harum fugiat nemo iure rerum delectus
                 nostrum facere distinctio!</p>
@@ -38,14 +42,27 @@
     <section class="shadow-md items-center
     md:flex-cols bg-orange-200
     font-mono font-bold p-4
-    mx-auto w-3/4 mb-10">
-        <h2 id="Portfolio">Portfolio</h2>
+    mx-auto w-3/4 mb-20">
+        <h2 class="text-2xl md:justify-center text-center p-4" id="Portfolio">Portfolio</h2>
+        <div>
+
+        </div>
     </section>
 
     <footer class="shadow-md items-center
     md:flex-cols bg-orange-200
     font-mono font-bold p-4
-    mx-auto w-3/4 mb-10">
-        <h3 id="Contact">Contact</h3>
+    mx-auto w-3/4 mb-20">
+        <h3 class="text-2xl md:justify-center text-center p-4" id="Contact">Contact</h3>
+        <div class="md:justify-center text-center">
+            <p>Below are all of the sites where you can find me or contact me.</p>
+            <p>If needed, you are able to contact me via email at dev.robbiehollis@gmail.com</p>
+        </div>
+        <div class="md:justify-center text-center p-4 scale-150">
+            <a href="https://twitter.com/IOAcademyUK" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/robbie-hollis-582992332/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.instagram.com/robbiesthing/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com/hayley.hollis.718" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
     </footer>
 </body>
